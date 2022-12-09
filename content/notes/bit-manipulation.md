@@ -45,6 +45,7 @@ Furthermore, you can use these operations
 - $a \setminus b$ = `a & (~b)`
 
 To get subsets, you can use:
+
 ```cpp
 // iterate through all subsets of size n
 for (int i = 0; i < (1 << n); i++) {}

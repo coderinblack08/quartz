@@ -13,7 +13,7 @@ date: "2022-12-06"
 ```cpp
 int l = 0;
 for (int r = 0; r < n; r++) {
-	// could be annything e.g. difference in distance
+	// could be annything (e.g. difference in distance)
 	bool criteria = d[r] - d[l] > k;
 	while (l < r && criteria) l++;
 	// check additional criteria
